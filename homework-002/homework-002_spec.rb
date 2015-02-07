@@ -11,7 +11,7 @@ describe Kitchen do
     expect(kitchen.add("stove")).to eq ["stove"]
   end
 
-  it "returns the first and last emements of the array" do
+  it "removes the first and last emements of the array" do
     kitchen.add("stove")
     kitchen.add("cat")
     kitchen.add("sink")
